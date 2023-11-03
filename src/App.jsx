@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Button } from './components/button'
+import { Button2 } from './components/button2'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <div>
         <Button></Button>
+        <Button2></Button2> 
       </div>
     </>
   )
